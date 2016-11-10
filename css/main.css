@@ -10,17 +10,18 @@ html {
 .banner {
   position: absolute;
   left: 50%;
-  bottom: 1.5rem;
-  padding: 1rem;
+  bottom: 2.2rem;
+  padding: 0 1.5rem;
   transform: translateX(-50%);
   width: 100%;
   max-width: 50em;
+  padding-top: 1rem;
 }
 
 h2 {
   font-size: 4rem;
   line-height: 1.4;
-  margin: 0;
+  margin: 0 0 1rem;
 }
 
 span {
@@ -32,6 +33,7 @@ p {
   font-style: italic;
   font-weight: normal;
   font-size: 2rem;
+  margin: 0;
 }
 
 .img-flex {
@@ -41,11 +43,10 @@ p {
 
 .main-div {
   position: relative;
-  max-width: 50em;
   max-height: 500px;
   overflow: hidden;
 }
 
 body {
-margin: 0;
+  margin: 0;
 }
